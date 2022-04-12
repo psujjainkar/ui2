@@ -324,7 +324,7 @@ input[type="text"],input[type="email"],input[type="textarea"]
         top:30%;
         z-index: 10;
         box-shadow:10px 10px 100px #ffa018;
-        width:100%;
+        width:auto;
 
 
   }
