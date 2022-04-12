@@ -1,4 +1,9 @@
 
+html
+ {
+    scroll-behavior: smooth;
+  }
+
 body
 {
     background-color:black;
@@ -17,6 +22,15 @@ body
     display: block;
     margin-left: auto;
     margin-right: auto;
+    cursor: url('/cursor.png'), auto;	
+}
+
+
+
+#main-div:hover
+{
+    background-image: linear-gradient(to right top, #4d00ff, #0087ff, #00b4ff, #00d4a7, #12eb1b);
+
 
 }
 
@@ -150,8 +164,16 @@ border-bottom:solid 1px white;
     text-align: center;
     font-family: 'Nunito', sans-serif;
     color:white;
+    cursor: pointer;
 
 }
+
+
+.sidebtn:hover
+{
+    background-image: linear-gradient(to right top, #4d00ff, #0087ff, #00b4ff, #00d4a7, #12eb1b);
+}
+
 
 #shape1
 {
@@ -185,7 +207,18 @@ border-bottom:solid 1px white;
     border-radius: 10px;
     font-weight: bold;
     cursor: pointer;
+    
 
+
+}
+
+
+
+#btn-id:hover
+{
+    background-image: linear-gradient(to right top, #4d00ff, #0087ff, #00b4ff, #00d4a7, #12eb1b);
+
+    
 
 }
 
@@ -323,7 +356,7 @@ input[type="text"],input[type="email"],input[type="textarea"]
         left: 30%;
         top:30%;
         z-index: 10;
-        box-shadow:10px 10px 100px #ffa018;
+        box-shadow:10px 10px 500px #ffa018;
         width:auto;
 
 
